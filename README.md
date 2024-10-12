@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-This P24 module is a Next18 socket decoder test board. It holds two independent Next18 sockets and at both ends the DCC signal is fed in and out for daisy chaining multiple PCBs.
+This module is a dual Next18 socket decoder test board and part of my growing collection of tools for DCC my digital model railway. It holds two independent Next18 sockets and at both ends the DCC signal is fed in and out for easy daisy chaining multiple PCBs. For each a motor or resistor may be externally attached to allow Service Mode programming with DCC.
 
 <details>
 <summary>See also</summary>
