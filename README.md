@@ -29,6 +29,7 @@ My PCB layout uses SMD footprints with mainly 0603 parts. Reflow soldering is my
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
+- Dimensions: 80mm x 22mm
 - Socket: 2x Next18
 
 ## Kicad
