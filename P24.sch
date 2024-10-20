@@ -60,30 +60,30 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J10
 U 1 1 609288BE
-P 3350 6000
-F 0 "J10" H 3600 6050 50  0000 R CNN
-F 1 "DCC" H 3600 5950 50  0000 R CNN
-F 2 "RTB:1725656" H 3350 6000 50  0001 C CNN
-F 3 "~" H 3350 6000 50  0001 C CNN
-	1    3350 6000
+P 2900 5950
+F 0 "J10" H 3150 6000 50  0000 R CNN
+F 1 "DCC" H 3150 5900 50  0000 R CNN
+F 2 "RTB:1725656" H 2900 5950 50  0001 C CNN
+F 3 "~" H 2900 5950 50  0001 C CNN
+	1    2900 5950
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3150 6000 2600 6000
+	2700 5950 2150 5950
 Wire Wire Line
-	2600 6000 2600 5600
+	2150 5950 2150 5550
 Wire Wire Line
-	3150 5900 2700 5900
+	2700 5850 2250 5850
 Wire Wire Line
-	2700 5900 2700 5700
+	2250 5850 2250 5650
 Wire Wire Line
-	3150 5600 2600 5600
-Connection ~ 2600 5600
+	2700 5550 2150 5550
+Connection ~ 2150 5550
 Wire Wire Line
-	2600 5600 2600 5400
+	2150 5550 2150 5350
 Wire Wire Line
-	3150 5500 2700 5500
-Connection ~ 2700 5500
+	2700 5450 2250 5450
+Connection ~ 2250 5450
 $Comp
 L Device:LED_Small_ALT D3
 U 1 1 65DC5B92
@@ -179,160 +179,160 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 65E143B9
-P 2900 3150
-F 0 "J5" H 2980 3142 50  0001 L CNN
-F 1 "Conn_01x02" H 2980 3051 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 3150 50  0001 C CNN
-F 3 "~" H 2900 3150 50  0001 C CNN
-	1    2900 3150
+P 2450 3100
+F 0 "J5" H 2530 3092 50  0001 L CNN
+F 1 "Conn_01x02" H 2530 3001 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 3100 50  0001 C CNN
+F 3 "~" H 2450 3100 50  0001 C CNN
+	1    2450 3100
 	0    -1   1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J9
 U 1 1 60927A0F
-P 3350 5500
-F 0 "J9" H 3550 5550 50  0000 R CNN
-F 1 "DCC" H 3600 5450 50  0000 R CNN
-F 2 "RTB:1725656" H 3350 5500 50  0001 C CNN
-F 3 "~" H 3350 5500 50  0001 C CNN
-	1    3350 5500
+P 2900 5450
+F 0 "J9" H 3100 5500 50  0000 R CNN
+F 1 "DCC" H 3150 5400 50  0000 R CNN
+F 2 "RTB:1725656" H 2900 5450 50  0001 C CNN
+F 3 "~" H 2900 5450 50  0001 C CNN
+	1    2900 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D11
 U 1 1 65E2D5AF
-P 2300 5600
-F 0 "D11" H 2300 5835 50  0001 C CNN
-F 1 "LED_Small_ALT" H 2300 5744 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 2300 5600 50  0001 C CNN
-F 3 "~" V 2300 5600 50  0001 C CNN
-	1    2300 5600
+P 1850 5550
+F 0 "D11" H 1850 5785 50  0001 C CNN
+F 1 "LED_Small_ALT" H 1850 5694 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1850 5550 50  0001 C CNN
+F 3 "~" V 1850 5550 50  0001 C CNN
+	1    1850 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D10
 U 1 1 65E2D8EB
-P 2300 5500
-F 0 "D10" H 2300 5735 50  0001 C CNN
-F 1 "LED_Small_ALT" H 2300 5644 50  0001 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 2300 5500 50  0001 C CNN
-F 3 "~" V 2300 5500 50  0001 C CNN
-	1    2300 5500
+P 1850 5450
+F 0 "D10" H 1850 5685 50  0001 C CNN
+F 1 "LED_Small_ALT" H 1850 5594 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 1850 5450 50  0001 C CNN
+F 3 "~" V 1850 5450 50  0001 C CNN
+	1    1850 5450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 65E38039
-P 2050 5600
-F 0 "R10" V 1843 5600 50  0001 C CNN
-F 1 "10k" V 2050 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 5600 50  0001 C CNN
-F 3 "~" H 2050 5600 50  0001 C CNN
-	1    2050 5600
+P 1600 5550
+F 0 "R10" V 1393 5550 50  0001 C CNN
+F 1 "10k" V 1600 5550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 5550 50  0001 C CNN
+F 3 "~" H 1600 5550 50  0001 C CNN
+	1    1600 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 65E38399
-P 2050 5500
-F 0 "R9" V 1843 5500 50  0001 C CNN
-F 1 "10k" V 2050 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 5500 50  0001 C CNN
-F 3 "~" H 2050 5500 50  0001 C CNN
-	1    2050 5500
+P 1600 5450
+F 0 "R9" V 1393 5450 50  0001 C CNN
+F 1 "10k" V 1600 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1530 5450 50  0001 C CNN
+F 3 "~" H 1600 5450 50  0001 C CNN
+	1    1600 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 5600 2600 5600
+	1950 5550 2150 5550
 Wire Wire Line
-	1900 5600 1850 5600
+	1450 5550 1400 5550
 Wire Wire Line
-	1850 5600 1850 5700
+	1400 5550 1400 5650
 Wire Wire Line
-	1850 5700 2700 5700
-Connection ~ 2700 5700
+	1400 5650 2250 5650
+Connection ~ 2250 5650
 Wire Wire Line
-	2700 5700 2700 5500
+	2250 5650 2250 5450
 Wire Wire Line
-	1900 5500 1850 5500
+	1450 5450 1400 5450
 Wire Wire Line
-	1850 5500 1850 5400
+	1400 5450 1400 5350
 Wire Wire Line
-	1850 5400 2600 5400
-Connection ~ 2600 5400
+	1400 5350 2150 5350
+Connection ~ 2150 5350
 Wire Wire Line
-	2400 5500 2700 5500
+	1950 5450 2250 5450
 $Comp
 L Connector_Generic:Conn_02x09_Counter_Clockwise J2
 U 1 1 66DBD63D
-P 3700 4550
-F 0 "J2" H 3750 3925 50  0001 C CNN
-F 1 "Conn_02x09_Counter_Clockwise" H 3750 4016 50  0001 C CNN
-F 2 "RTB:AXK5F16547YG" H 3700 4550 50  0001 C CNN
-F 3 "~" H 3700 4550 50  0001 C CNN
-	1    3700 4550
+P 3250 4500
+F 0 "J2" H 3300 3875 50  0001 C CNN
+F 1 "Conn_02x09_Counter_Clockwise" H 3300 3966 50  0001 C CNN
+F 2 "RTB:AXK5F16547YG" H 3250 4500 50  0001 C CNN
+F 3 "~" H 3250 4500 50  0001 C CNN
+	1    3250 4500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3400 4850 3    50   Output ~ 0
+Text GLabel 2950 4800 3    50   Output ~ 0
 Mot+.b
-Text GLabel 3500 4850 3    50   Output ~ 0
+Text GLabel 3050 4800 3    50   Output ~ 0
 Aux1.b
-Text GLabel 3600 4850 3    50   Output ~ 0
+Text GLabel 3150 4800 3    50   Output ~ 0
 Aux3.b
-Text GLabel 3700 4850 3    50   Output ~ 0
+Text GLabel 3250 4800 3    50   Output ~ 0
 GND.b
-Text GLabel 3800 4850 3    50   Output ~ 0
+Text GLabel 3350 4800 3    50   Output ~ 0
 U+.b
-Text GLabel 3900 4850 3    50   Output ~ 0
+Text GLabel 3450 4800 3    50   Output ~ 0
 Aux6.b
-Text GLabel 4000 4850 3    50   Output ~ 0
+Text GLabel 3550 4800 3    50   Output ~ 0
 F0_f.b
-Text GLabel 4000 4150 1    50   Output ~ 0
+Text GLabel 3550 4100 1    50   Output ~ 0
 Mot-.b
-Text GLabel 3900 4150 1    50   Output ~ 0
+Text GLabel 3450 4100 1    50   Output ~ 0
 Aux2.b
-Text GLabel 3800 4150 1    50   Output ~ 0
+Text GLabel 3350 4100 1    50   Output ~ 0
 Aux4.b
-Text GLabel 3700 4150 1    50   Output ~ 0
+Text GLabel 3250 4100 1    50   Output ~ 0
 GND.b
-Text GLabel 3600 4150 1    50   Output ~ 0
+Text GLabel 3150 4100 1    50   Output ~ 0
 U+.b
-Text GLabel 3500 4150 1    50   Output ~ 0
+Text GLabel 3050 4100 1    50   Output ~ 0
 Aux5.b
-Text GLabel 3400 4150 1    50   Output ~ 0
+Text GLabel 2950 4100 1    50   Output ~ 0
 F0_r.b
 Wire Wire Line
-	4100 4250 4100 4200
+	3650 4200 3650 4150
 Wire Wire Line
-	3400 4150 3400 4250
+	2950 4100 2950 4200
 Wire Wire Line
-	3500 4150 3500 4250
+	3050 4100 3050 4200
 Wire Wire Line
-	3600 4150 3600 4250
+	3150 4100 3150 4200
 Wire Wire Line
-	3700 4150 3700 4250
+	3250 4100 3250 4200
 Wire Wire Line
-	3800 4150 3800 4250
+	3350 4100 3350 4200
 Wire Wire Line
-	3900 4150 3900 4250
+	3450 4100 3450 4200
 Wire Wire Line
-	4000 4150 4000 4250
+	3550 4100 3550 4200
 Wire Wire Line
-	4100 4800 4100 4750
+	3650 4750 3650 4700
 Wire Wire Line
-	4000 4750 4000 4850
+	3550 4700 3550 4800
 Wire Wire Line
-	3900 4850 3900 4750
+	3450 4800 3450 4700
 Wire Wire Line
-	3800 4750 3800 4850
+	3350 4700 3350 4800
 Wire Wire Line
-	3700 4850 3700 4750
+	3250 4800 3250 4700
 Wire Wire Line
-	3600 4750 3600 4850
+	3150 4700 3150 4800
 Wire Wire Line
-	3500 4850 3500 4750
+	3050 4800 3050 4700
 Wire Wire Line
-	3400 4750 3400 4850
+	2950 4700 2950 4800
 Text GLabel 7700 4300 0    50   Input ~ 0
 Mot+.b
 Text GLabel 7700 4200 0    50   Input ~ 0
@@ -543,12 +543,12 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x02 J8
 U 1 1 65E21716
-P 2900 5000
-F 0 "J8" H 2980 4992 50  0001 L CNN
-F 1 "Conn_01x02" H 2980 4901 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 5000 50  0001 C CNN
-F 3 "~" H 2900 5000 50  0001 C CNN
-	1    2900 5000
+P 2450 4950
+F 0 "J8" H 2530 4942 50  0001 L CNN
+F 1 "Conn_01x02" H 2530 4851 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 4950 50  0001 C CNN
+F 3 "~" H 2450 4950 50  0001 C CNN
+	1    2450 4950
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -563,26 +563,24 @@ F 3 "~" H 8550 2450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3200 4250 3300 4250
+	2750 4700 2850 4700
 Wire Wire Line
-	3200 4750 3300 4750
+	3650 4150 3750 4150
 Wire Wire Line
-	4100 4200 4200 4200
+	3750 4150 3750 4750
 Wire Wire Line
-	4200 4200 4200 4800
+	3750 4750 3650 4750
+Connection ~ 3650 4750
+Connection ~ 2150 4700
 Wire Wire Line
-	4200 4800 4100 4800
-Connection ~ 4100 4800
-Connection ~ 2600 4750
+	2150 4700 2750 4700
+Connection ~ 2250 4750
 Wire Wire Line
-	2600 4750 3200 4750
-Connection ~ 2700 4800
+	2250 4750 2450 4750
 Wire Wire Line
-	2700 4800 2900 4800
+	2250 4750 2250 5450
 Wire Wire Line
-	2700 4800 2700 5500
-Wire Wire Line
-	2600 4750 2600 5400
+	2150 4700 2150 5350
 $Comp
 L Connector_Generic:Conn_01x08 J1
 U 1 1 67051528
@@ -674,72 +672,72 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x09_Counter_Clockwise J4
 U 1 1 670E9BA9
-P 3700 2700
-F 0 "J4" H 3750 2075 50  0001 C CNN
-F 1 "Conn_02x09_Counter_Clockwise" H 3750 2166 50  0001 C CNN
-F 2 "RTB:AXK5F16547YG" H 3700 2700 50  0001 C CNN
-F 3 "~" H 3700 2700 50  0001 C CNN
-	1    3700 2700
+P 3250 2650
+F 0 "J4" H 3300 2025 50  0001 C CNN
+F 1 "Conn_02x09_Counter_Clockwise" H 3300 2116 50  0001 C CNN
+F 2 "RTB:AXK5F16547YG" H 3250 2650 50  0001 C CNN
+F 3 "~" H 3250 2650 50  0001 C CNN
+	1    3250 2650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3400 3000 3    50   Output ~ 0
+Text GLabel 2950 2950 3    50   Output ~ 0
 Mot+.a
-Text GLabel 3500 3000 3    50   Output ~ 0
+Text GLabel 3050 2950 3    50   Output ~ 0
 Aux1.a
-Text GLabel 3600 3000 3    50   Output ~ 0
+Text GLabel 3150 2950 3    50   Output ~ 0
 Aux3.a
-Text GLabel 3700 3000 3    50   Output ~ 0
+Text GLabel 3250 2950 3    50   Output ~ 0
 GND.a
-Text GLabel 3800 3000 3    50   Output ~ 0
+Text GLabel 3350 2950 3    50   Output ~ 0
 U+.a
-Text GLabel 3900 3000 3    50   Output ~ 0
+Text GLabel 3450 2950 3    50   Output ~ 0
 Aux6.a
-Text GLabel 4000 3000 3    50   Output ~ 0
+Text GLabel 3550 2950 3    50   Output ~ 0
 F0_f.a
-Text GLabel 4000 2300 1    50   Output ~ 0
+Text GLabel 3550 2250 1    50   Output ~ 0
 Mot-.a
-Text GLabel 3900 2300 1    50   Output ~ 0
+Text GLabel 3450 2250 1    50   Output ~ 0
 Aux2.a
-Text GLabel 3800 2300 1    50   Output ~ 0
+Text GLabel 3350 2250 1    50   Output ~ 0
 Aux4.a
-Text GLabel 3700 2300 1    50   Output ~ 0
+Text GLabel 3250 2250 1    50   Output ~ 0
 GND.a
-Text GLabel 3600 2300 1    50   Output ~ 0
+Text GLabel 3150 2250 1    50   Output ~ 0
 U+.a
-Text GLabel 3500 2300 1    50   Output ~ 0
+Text GLabel 3050 2250 1    50   Output ~ 0
 Aux5.a
 Wire Wire Line
-	4100 2400 4100 2350
+	3650 2350 3650 2300
 Wire Wire Line
-	3400 2300 3400 2400
+	2950 2250 2950 2350
 Wire Wire Line
-	3500 2300 3500 2400
+	3050 2250 3050 2350
 Wire Wire Line
-	3600 2300 3600 2400
+	3150 2250 3150 2350
 Wire Wire Line
-	3700 2300 3700 2400
+	3250 2250 3250 2350
 Wire Wire Line
-	3800 2300 3800 2400
+	3350 2250 3350 2350
 Wire Wire Line
-	3900 2300 3900 2400
+	3450 2250 3450 2350
 Wire Wire Line
-	4000 2300 4000 2400
+	3550 2250 3550 2350
 Wire Wire Line
-	4100 2950 4100 2900
+	3650 2900 3650 2850
 Wire Wire Line
-	4000 2900 4000 3000
+	3550 2850 3550 2950
 Wire Wire Line
-	3900 3000 3900 2900
+	3450 2950 3450 2850
 Wire Wire Line
-	3800 2900 3800 3000
+	3350 2850 3350 2950
 Wire Wire Line
-	3700 3000 3700 2900
+	3250 2950 3250 2850
 Wire Wire Line
-	3600 2900 3600 3000
+	3150 2850 3150 2950
 Wire Wire Line
-	3500 3000 3500 2900
+	3050 2950 3050 2850
 Wire Wire Line
-	3400 2900 3400 3000
+	2950 2850 2950 2950
 Text GLabel 7700 2450 0    50   Input ~ 0
 Mot+.a
 Text GLabel 7700 2350 0    50   Input ~ 0
@@ -937,18 +935,16 @@ Wire Wire Line
 Wire Wire Line
 	5150 2800 5000 2800
 Wire Wire Line
-	3200 2400 3300 2400
+	2750 2850 2850 2850
 Wire Wire Line
-	3200 2900 3300 2900
+	3650 2300 3750 2300
 Wire Wire Line
-	4100 2350 4200 2350
+	3750 2300 3750 2900
 Wire Wire Line
-	4200 2350 4200 2950
+	3750 2900 3650 2900
+Connection ~ 3650 2900
 Wire Wire Line
-	4200 2950 4100 2950
-Connection ~ 4100 2950
-Wire Wire Line
-	2700 2950 2900 2950
+	2250 2900 2450 2900
 $Comp
 L Connector_Generic:Conn_01x08 J6
 U 1 1 670E9C8B
@@ -1032,10 +1028,10 @@ GND.a
 Wire Wire Line
 	7700 2700 8150 2700
 Wire Wire Line
-	2600 2900 2600 4750
+	2150 2850 2150 4700
 Wire Wire Line
-	2700 2950 2700 4800
-Text GLabel 3400 2300 1    50   Output ~ 0
+	2250 2900 2250 4750
+Text GLabel 2950 2250 1    50   Output ~ 0
 F0_r.a
 $Comp
 L Device:LED_Small_ALT D1
@@ -1142,15 +1138,41 @@ $EndComp
 Wire Wire Line
 	8100 4450 8250 4450
 Wire Wire Line
-	3200 2400 3200 2900
+	2150 2850 2750 2850
+Connection ~ 2750 2850
 Wire Wire Line
-	2600 2900 3200 2900
-Connection ~ 3200 2900
+	2550 2900 3650 2900
+Connection ~ 2750 4700
 Wire Wire Line
-	3000 2950 4100 2950
+	2550 4750 3650 4750
 Wire Wire Line
-	3200 4250 3200 4750
-Connection ~ 3200 4750
+	2850 4200 2850 4150
 Wire Wire Line
-	3000 4800 4100 4800
+	2850 4150 2750 4150
+Wire Wire Line
+	2750 4150 2750 4700
+Wire Wire Line
+	2850 2350 2850 2300
+Wire Wire Line
+	2850 2300 2750 2300
+Wire Wire Line
+	2750 2300 2750 2850
+Text Notes 8700 4300 0    50   ~ 0
+optional external Motor/Resistor
+Text Notes 8700 4550 0    50   ~ 0
+optional external Capacitor
+Text Notes 8700 2450 0    50   ~ 0
+optional external Motor/Resistor
+Text Notes 8700 2700 0    50   ~ 0
+optional external Capacitor
+Text Notes 5800 1950 0    50   ~ 0
+optional for Debugging
+Text Notes 5800 3800 0    50   ~ 0
+optional for Debugging
+Text Notes 3850 2650 0    50   ~ 0
+Next18 plug
+Text Notes 3850 4500 0    50   ~ 0
+Next18 plug
+Text Notes 3300 5750 0    50   ~ 0
+DCC in and out
 $EndSCHEMATC
