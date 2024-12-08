@@ -8,7 +8,9 @@ This simple module is a decoder test board with two [Next18](https://normen.rail
 <details>
 <summary>See also</summary>
 
+- [RTB_D21](https://github.com/git4dcc/RTB_D21)
 - [RTB_P21](https://github.com/git4dcc/RTB_P21)
+- [RTB_P27](https://github.com/git4dcc/RTB_P27)
 
 </details>
 
